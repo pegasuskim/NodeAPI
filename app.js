@@ -2,7 +2,6 @@
 var global = require('./common');
 process.env.TZ = 'Asia/Seoul';
 
-var request = require('request');
 var connectRoute = require('connect-route');
 var connect = require('connect');
 

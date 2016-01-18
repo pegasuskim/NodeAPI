@@ -1,4 +1,5 @@
 'use strict';
+var request = require('request');
 var connectRoute = require('connect-route');
 var DataControl = require('../controllers/control');
 
@@ -16,7 +17,6 @@ var routes = function(app) {
          //somethoing job ...
          res.end('home');
       });
-
 
       router.get('/home/:id', function (req, res, next) {
          //somethoing job ...
